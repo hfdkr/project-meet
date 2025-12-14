@@ -92,8 +92,11 @@ em:hover{
   margin-left: 17px;
 }
 /* style main content */
-.main-content {
-  text-align: center;
+.main_content {
+  padding: 32px 32px 172px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
 }
 /* img number */
 .number {
@@ -185,6 +188,10 @@ footer .number {
     border-radius: 29px;
 
 }
+.content-3 button:hover{
+    color: #28283D;
+    border-radius: 2px solid black;
+}
 
 /* Tablet: 768px to 991px */
 
@@ -214,6 +221,12 @@ footer .number {
     .btn{
         width: 193px;
     }
+    .main_content {
+     padding: 32px 32px 172px;
+     display: flex;
+     flex-direction: column;
+     gap: 64px;
+}
     .number{
         display: flex;
         justify-content: center;
@@ -229,6 +242,7 @@ footer .number {
         height: auto;
         display: block;
     }
+    
     .content-2 {
         margin: 2rem auto 0;
         text-align: center;
@@ -278,6 +292,12 @@ footer .number {
     .btn{
         width: 193px;
     }
+    .main_content {
+      padding: 32px 32px 172px;
+      display: flex;
+      flex-direction: column;
+      gap: 64px;
+}
     .number{
         display: flex;
         justify-content: center;
@@ -287,6 +307,7 @@ footer .number {
        display: grid;
        grid-template-columns: repeat(2, auto);
        justify-content: center;
+       align-items: center;
        gap: 24px;
     }
     .images img{
