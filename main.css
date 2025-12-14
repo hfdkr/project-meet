@@ -297,7 +297,8 @@ footer .number {
 
     /* Content-2 adjustments */
     .content-2 {
-        max-width: 90%;
+        width: 100%;
+        max-width: 100%;
         margin: 1.5rem auto 0;
         text-align: center;
     }
